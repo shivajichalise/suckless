@@ -1,0 +1,5 @@
+#! /bin/bash
+
+DATE="$(date '+%m-%d (%b/%a) %T')"
+
+echo -e "$DATE"

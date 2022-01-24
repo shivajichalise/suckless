@@ -1,0 +1,4 @@
+#! /bin/bash
+
+IP="$(nmcli -a | grep 'inet4 192' | awk '{print $2}')"
+echo -e "$IP"

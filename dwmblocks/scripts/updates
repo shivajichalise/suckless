@@ -1,0 +1,4 @@
+#! /bin/bash
+
+UPDATES="$(checkupdates | wc -l)"
+echo -e "UPD: $UPDATES"

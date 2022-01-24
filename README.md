@@ -1,0 +1,1 @@
+# suckless software configuration
